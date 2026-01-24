@@ -51,7 +51,8 @@ pip install pandas matplotlib scipy
 Ensure `epa-sea-level.csv` is in the working directory.
 
 ```python
-import Sea-Level-Predictor
+import sea_level_predictor
 
 # Generate and save the plot
-Sea-Level-Predcitor.draw_plot()
+sea_level_predictor.draw_plot()
+```
