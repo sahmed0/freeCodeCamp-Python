@@ -45,12 +45,13 @@ The programme uses the **Numpy** library to perform vectorised calculations for 
 Import the `calculate` function from the script and pass a list of 9 numbers to it.
 
 ```python
-import mean_var_calc
+import mean_var_std
 
 # Example usage
 try:
-    result = mean_var_calc.calculate([0, 1, 2, 3, 4, 5, 6, 7, 8])
+    result = mean_var_std.calculate([0, 1, 2, 3, 4, 5, 6, 7, 8])
     print(result)
 except ValueError as e:
     print(e)
+
 
