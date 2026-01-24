@@ -30,7 +30,7 @@ Each project is contained within its own directory. To run a specific project:
 
 1.  Clone this repository:
     ```bash
-    git clone [https://github.com/sahmed0/freeCodeCamp-Python.git](https://github.com/sahmed0/freeCodeCamp-Python.git)
+    git clone https://github.com/sahmed0/freeCodeCamp-Python.git
     ```
 2.  Navigate to the project folder:
     ```bash
