@@ -13,7 +13,6 @@ To visualise the acceleration of sea level rise, the project plots two distinct 
 ## Sample Output
 
 ![Sea Level Plot](sea_level_plot.png)
-*(Note: Run the script to generate this plot)*
 
 ## Technologies Used
 
@@ -29,12 +28,11 @@ To visualise the acceleration of sea level rise, the project plots two distinct 
 * `epa-sea-level.csv`: Historical dataset containing sea level measurements.
 * `README.md`: Project documentation.
 
-## How to Run
-
 ### Prerequisites
 Ensure you have Python installed. You will need the following libraries:
 
 ```bash
 pip install pandas matplotlib scipy
+
 
 
