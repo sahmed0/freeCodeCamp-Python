@@ -33,6 +33,25 @@ Ensure you have Python installed. You will need the following libraries:
 
 ```bash
 pip install pandas matplotlib scipy
+```
 
+## Installation
 
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/sahmed0/Sea-Level-Predictor.git
+    ```
+2.  Navigate to the directory:
+    ```bash
+    cd Sea-Level-Predictor
+    ```
 
+## Usage
+
+Ensure `epa-sea-level.csv` is in the working directory.
+
+```python
+import Sea-Level-Predictor
+
+# Generate and save the plot
+Sea-Level-Predcitor.draw_plot()
