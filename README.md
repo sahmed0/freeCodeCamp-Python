@@ -46,6 +46,9 @@ Upon loading, the script performs the following operations:
 3.  **Plotting:** Uses `sns.catplot` (kind='bar') to draw a categorical plot, separating the data by `cardio` status.
 4.  **Output:** Saves the figure as `catplot.png`.
 
+#### Categorical Plot
+![Categorical Plot](catplot.png)
+
 #### `draw_heat_map()`
 1.  **Data Cleaning:** Filters the dataframe to remove incorrect data segments:
     * Diastolic pressure (`ap_lo`) is higher than systolic (`ap_hi`).
@@ -55,6 +58,9 @@ Upon loading, the script performs the following operations:
 3.  **Masking:** Generates a mask for the upper triangle using `np.triu` to avoid redundant information in the heatmap.
 4.  **Plotting:** Uses `sns.heatmap` to plot the correlation matrix with annotations formatted to 1 decimal place.
 5.  **Output:** Saves the figure as `heatmap.png`.
+
+#### Heat Map
+![Heat Map](heatmap.png)
 
 ## Technologies Used
 
@@ -91,3 +97,4 @@ medical_data_visualizer.draw_cat_plot()
 
 # Generate and save the Heat Map
 medical_data_visualizer.draw_heat_map()
+
