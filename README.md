@@ -30,11 +30,11 @@ Each project is contained within its own directory. To run a specific project:
 
 1.  Clone this repository:
     ```bash
-    git clone [https://github.com/YOUR-USERNAME/data-analysis-portfolio.git](https://github.com/YOUR-USERNAME/data-analysis-portfolio.git)
+    git clone [https://github.com/sahmed0/freeCodeCamp-Python.git](https://github.com/sahmed0/freeCodeCamp-Python.git)
     ```
 2.  Navigate to the project folder:
     ```bash
-    cd 01-Mean-Variance-Standard-Deviation-Calculator
+    cd Mean-Var-Calc
     ```
 3.  Follow the instructions in that folder's `README.md`.
 
