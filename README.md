@@ -1,11 +1,11 @@
-# 🌊 Sea Level Predictor
+# Sea Level Predictor
 
 An interactive data analysis project that visualises the history of global sea level change and predicts future trends through the year 2050.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Library](https://img.shields.io/badge/Library-Pandas%20%7C%20Matplotlib%20%7C%20SciPy-orange)
 
-## 📖 About The Project
+## About The Project
 
 This project uses historical data from the EPA (CSIRO Adjusted Sea Level) to analyse the rate of global sea level rise. It uses **Linear Regression** to predict sea levels in the year 2050.
 
@@ -13,29 +13,30 @@ To visualise the acceleration of sea level rise, the project plots two distinct 
 1.  **Historical Trend:** A line of best fit using all available data (1880–Present).
 2.  **Recent Trend:** A line of best fit using only data from 2000 onwards, highlighting the increased rate of rise in recent decades.
 
-## 📊 Sample Output
+## Sample Output
 
 ![Sea Level Plot](sea_level_plot.png)
 *(Note: Run the script to generate this plot)*
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Python**: Core programming language.
 * **Pandas**: For data manipulation and CSV handling.
 * **Matplotlib**: For data visualisation and plotting.
 * **SciPy (linregress)**: For calculating the slope and intercept of the linear regression models.
 
-## 📂 Project Structure
+## Project Structure
 
 * `sea_level_predictor.py`: The main script containing the regression analysis and plotting logic.
 * `test_module.py`: Unit tests to verify the accuracy of the plot elements and regression values.
 * `epa-sea-level.csv`: Historical dataset containing sea level measurements.
 * `README.md`: Project documentation.
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 Ensure you have Python installed. You will need the following libraries:
 
 ```bash
 pip install pandas matplotlib scipy
+
