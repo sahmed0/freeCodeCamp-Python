@@ -47,7 +47,7 @@ The script performs data analysis to answer the following questions:
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/sahmed0/demographic-data-analyser.git]
+    git clone https://github.com/sahmed0/demographic-data-analyser.git
     ```
 2.  Navigate to the directory:
     ```bash
@@ -67,4 +67,5 @@ import demographic_data_analyser
 
 # Calculate and print the data
 demographic_data_analyser.calculate_demographic_data()
+
 
