@@ -1,9 +1,6 @@
 # Sea Level Predictor
-
-An interactive data analysis project that visualises the history of global sea level change and predicts future trends through the year 2050.
-
-![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
-![Library](https://img.shields.io/badge/Library-Pandas%20%7C%20Matplotlib%20%7C%20SciPy-orange)
+This project is the solution to the "Sea Level Predictor" challenge, the fifth project in the **freeCodeCamp Data Analysis with Python** certification.
+It is a data analysis project that visualises the history of global sea level change and predicts future trends through 2050. 
 
 ## About The Project
 
@@ -39,4 +36,5 @@ Ensure you have Python installed. You will need the following libraries:
 
 ```bash
 pip install pandas matplotlib scipy
+
 
