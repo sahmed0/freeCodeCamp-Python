@@ -4,7 +4,7 @@ This project is the solution to the "Page View Time Series Visualizer" challenge
 
 ## Project Description
 
-The goal of this project is to visualise time series data using a line chart, bar chart, and box plots. The dataset contains the number of page views each day on the freeCodeCamp.org forum from 2016 to 2019.
+The goal of this project is to visualise time-series data using line charts, bar charts, and box plots. The dataset contains the number of page views each day on the freeCodeCamp.org forum from 2016 to 2019.
 
 The visualisations help identify patterns in the data, including:
 1.  **Trends:** How page views change year-over-year.
@@ -19,7 +19,7 @@ The project utilises the `fcc-forum-pageviews.csv` file.
 ## Implementation Details
 
 ### Data Cleaning
-Before plotting, the data is cleaned to remove noise and outliers. We filter out days where the page views were in the top 2.5% or bottom 2.5% of the dataset.
+Before plotting, the data is cleaned to remove noise and outliers. We filter out days when page views were in the top or bottom 2.5% of the dataset.
 
 ### Visualisation Functions
 
@@ -59,11 +59,11 @@ Before plotting, the data is cleaned to remove noise and outliers. We filter out
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/your-username/page-view-time-series-visualizer.git](https://github.com/your-username/page-view-time-series-visualizer.git)
+    git clone https://github.com/sahmed0/time-series-visualiser.git
     ```
 2.  Navigate to the directory:
     ```bash
-    cd page-view-time-series-visualizer
+    cd time-series-visualiser
     ```
 3.  Install the required dependencies:
     ```bash
@@ -75,13 +75,14 @@ Before plotting, the data is cleaned to remove noise and outliers. We filter out
 Ensure `fcc-forum-pageviews.csv` is in the working directory. Import the module and call the visualisation functions.
 
 ```python
-import time_series_visualizer
+import time-series-visualiser
 
 # Generate and save the Line Plot
-time_series_visualizer.draw_line_plot()
+time-series-visualiser.draw_line_plot()
 
 # Generate and save the Bar Plot
-time_series_visualizer.draw_bar_plot()
+time-series-visualiser.draw_bar_plot()
 
 # Generate and save the Box Plots
-time_series_visualizer.draw_box_plot()
+time-series-visualiser.draw_box_plot()
+
