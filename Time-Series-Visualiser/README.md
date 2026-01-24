@@ -75,14 +75,14 @@ Before plotting, the data is cleaned to remove noise and outliers. We filter out
 Ensure `fcc-forum-pageviews.csv` is in the working directory. Import the module and call the visualisation functions.
 
 ```python
-import time-series-visualiser
+import time_series_visualizer
 
 # Generate and save the Line Plot
-time-series-visualiser.draw_line_plot()
+time_series_visualizer.draw_line_plot()
 
 # Generate and save the Bar Plot
-time-series-visualiser.draw_bar_plot()
+time_series_visualizer.draw_bar_plot()
 
 # Generate and save the Box Plots
-time-series-visualiser.draw_box_plot()
-
+time_series_visualizer.draw_box_plot()
+```
