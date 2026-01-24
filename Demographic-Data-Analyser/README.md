@@ -63,9 +63,10 @@ The script performs data analysis to answer the following questions:
 Ensure the `adult.data.csv` file is in the same directory as the script. You can import the function and run it as follows:
 
 ```python
-import demographic_data_analyser
+import demographic_data_analyzer
 
 # Calculate and print the data
-demographic_data_analyser.calculate_demographic_data()
+demographic_data_analyzer.calculate_demographic_data()
+
 
 
