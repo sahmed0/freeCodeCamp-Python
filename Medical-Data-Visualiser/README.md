@@ -74,11 +74,11 @@ Upon loading, the script performs the following operations:
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/your-username/medical-data-visualizer.git](https://github.com/your-username/medical-data-visualizer.git)
+    git clone https://github.com/sahmed0/medical-data-visualiser.git
     ```
 2.  Navigate to the directory:
     ```bash
-    cd medical-data-visualizer
+    cd medical-data-visualiser
     ```
 3.  Install the required dependencies:
     ```bash
@@ -90,11 +90,12 @@ Upon loading, the script performs the following operations:
 Ensure `medical_examination.csv` is in the working directory. Import the module and call the visualisation functions.
 
 ```python
-import medical_data_visualizer
+import medical_data_visualiser
 
 # Generate and save the Categorical Plot
-medical_data_visualizer.draw_cat_plot()
+medical_data_visualiser.draw_cat_plot()
 
 # Generate and save the Heat Map
 medical_data_visualizer.draw_heat_map()
+
 
