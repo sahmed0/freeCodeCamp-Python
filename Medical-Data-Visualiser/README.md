@@ -90,12 +90,13 @@ Upon loading, the script performs the following operations:
 Ensure `medical_examination.csv` is in the working directory. Import the module and call the visualisation functions.
 
 ```python
-import medical_data_visualiser
+import medical_data_visualizer
 
 # Generate and save the Categorical Plot
-medical_data_visualiser.draw_cat_plot()
+medical_data_visualizer.draw_cat_plot()
 
 # Generate and save the Heat Map
 medical_data_visualizer.draw_heat_map()
+
 
 
