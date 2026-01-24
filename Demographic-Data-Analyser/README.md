@@ -47,11 +47,11 @@ The script performs data analysis to answer the following questions:
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/your-username/demographic-data-analyzer.git](https://github.com/your-username/demographic-data-analyzer.git)
+    git clone [https://github.com/sahmed0/demographic-data-analyser.git]
     ```
 2.  Navigate to the directory:
     ```bash
-    cd demographic-data-analyzer
+    cd demographic-data-analyser
     ```
 3.  Install the required dependency:
     ```bash
@@ -63,7 +63,8 @@ The script performs data analysis to answer the following questions:
 Ensure the `adult.data.csv` file is in the same directory as the script. You can import the function and run it as follows:
 
 ```python
-import demographic_data_analyzer
+import demographic_data_analyser
 
 # Calculate and print the data
-demographic_data_analyzer.calculate_demographic_data()
+demographic_data_analyser.calculate_demographic_data()
+
